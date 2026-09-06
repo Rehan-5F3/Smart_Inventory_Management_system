@@ -1,0 +1,74 @@
+.table tbody tr {
+  transition: all 0.3s ease;
+}
+
+.table tbody tr:hover {
+  background-color: #fff9e6;
+  transform: scale(1.01);
+}
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 18px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.sidebar-link:hover {
+  background: #ffc107;
+  color: #1f1f2e;
+  transform: translateX(8px);
+}
+
+.sidebar-link.active {
+  background: #ffc107;
+  color: #1f1f2e;
+}
+.sidebar-link i {
+  transition: transform 0.3s ease;
+}
+
+.sidebar-link:hover i {
+  transform: scale(1.2);
+}
+.dashboard-card{
+    border:none;
+    border-radius:18px;
+    transition:.3s;
+    cursor:pointer;
+    overflow:hidden;
+}
+
+.dashboard-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 35px rgba(0,0,0,.15);
+}
+.dashboard-number{
+    font-size:34px;
+    font-weight:bold;
+}
+
+.dashboard-title{
+    color:#6c757d;
+    font-weight:600;
+}
+.card{
+transition:.3s ease;
+}
+
+
+.dashboard-card{
+padding:30px;
+border-radius:22px;
+}
+.card {
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.18) !important;
+}
